@@ -1,0 +1,362 @@
+.html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: url(images/greyback.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.header {
+  font-size: 1.375em;
+}
+
+.button {
+  cursor: pointer;
+  display: flex;
+  z-index: 2;
+}
+
+.button:hover {
+  text-decoration: underline white;
+  display: flex;
+  z-index: 2;
+}
+
+.reservations {
+  background-color: white;
+  color: black;
+  border: 0px solid white;
+  font-size: 1.1em;
+  display: flex;
+}
+
+.headerrow {
+  background-color: transparent;
+  color: white;
+  border: 2px transparent;
+  font-size: 1.1em;
+  font-family: sans-serif;
+}
+
+.navcontainer {
+  border: 3px;
+  padding: 5px;
+  float: left;
+}
+
+.navbar {
+  float: left;
+  padding: 5px;
+  z-index: 1;
+}
+
+.intro {
+  height: 100vh;
+  position: relative;
+}
+
+.slideshow-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+  z-index: -1;
+}
+
+.slideshow-img:first-child {
+  display: block;
+}
+
+.luca {
+  z-index: 1;
+  padding-left: 100px;
+  padding-top: 175px;
+  height: 200px;
+  width: 450px;
+  align-items: center;
+  display: inline-block;
+}
+
+
+.brit{
+  background-color: white;
+  opacity: 80%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+p.italy {
+  font-size: 2.5em;
+}
+
+.left {
+  float: left;
+  width: 50vw;
+  height: 950px;
+}
+
+.right {
+  float: right;
+  width: 50vw;
+  height: 950px;
+}
+
+#restback {
+  float: left;
+  width: 50%;
+  opacity: 80%;
+  text-align: center;
+  background-color: red;
+  height: 950px;
+  z-index: 1;
+}
+
+#restback img{
+  width: 300px;
+  text-align: center;
+  padding: 150px;
+}
+
+#restaurant {
+  width: 50%;
+  float: right;
+  height: 950px;
+}
+
+#restaurant img{
+  width: 100%;
+  height: 100%;
+}
+
+#rest {
+  font-size: 25px;
+}
+
+#rest2 {
+  font-size: 20px;
+}
+
+#rest3 {
+  font-size: 30px;
+}
+
+.restbut {
+  background-color: red;
+  color: black;
+  border: 0.5px solid #000000;
+  font-size: 1.5em;
+  font-family: 'Courier New', monospace;
+  z-index: 2;
+  transition-duration: 0.4s;
+  padding: 10px;
+}
+
+.restbut:hover {
+  background-color: white;
+  border: 2px solid white;
+
+}
+
+.chrisbut {
+  background-color: darkorange;
+  color: black;
+  border: 0.5px solid #000000;
+  font-size: 1.5em;
+  font-family: 'Courier New', monospace;
+  z-index: 2;
+  transition-duration: 0.4s;
+  padding: 10px;
+}
+
+.chrisbut:hover {
+  background-color: white;
+  border: 2px solid white;
+}
+
+.barbut {
+  background-color: #ffdd99;
+  color: black;
+  border: 0.5px solid #000000;
+  font-size: 1.5em;
+  font-family: 'Courier New', monospace;
+  z-index: 2;
+  transition-duration: 0.4s;
+  padding: 10px;
+}
+
+.barbut:hover {
+  background-color: white;
+  border: 2px solid white;
+}
+
+.boxplot {
+  width: 100%;
+  margin: 0;
+  height: 950px;
+}
+
+#cocktail {
+  width: 50%;
+  float: left;
+  height: 950px;
+}
+
+#cocktail img {
+  width: 100%;
+  height: 100%;
+}
+
+#restback2 {
+  float: left;
+  width: 50%;
+  opacity: 80%;
+  text-align: center;
+  background-color: darkorange;
+  height: 950px;
+  z-index: 1;
+}
+
+#restback2 img{
+  width: 300px;
+  text-align: center;
+  padding: 150px;
+}
+
+#restback3 {
+  float: left;
+  width: 50%;
+  opacity: 80%;
+  text-align: center;
+  background-color: #ffdd99;
+  height: 950px;
+  z-index: 1;
+}
+
+#restback3 img{
+  width: 300px;
+  text-align: center;
+  padding: 150px;
+}
+
+#restback4 {
+  float: left;
+  width: 50%;
+  opacity: 80%;
+  text-align: center;
+  background-color: #ffdd99;
+  height: 600px;
+  z-index: 1;
+}
+
+#restback4 img{
+  width: 300px;
+  text-align: center;
+  padding: 75px;
+}
+
+#restback5 {
+  float: left;
+  width: 50%;
+  opacity: 80%;
+  text-align: center;
+  background-color: #ffff66;
+  height: 600px;
+  z-index: 1;
+}
+
+#restback5 img {
+  width: 300px;
+  text-align: center;
+  padding: 75px;
+}
+
+#restback6 {
+  float: left;
+  width: 50%;
+  opacity: 80%;
+  text-align: center;
+  background-color: #ff0000;
+  height: 600px;
+  z-index: 1;
+  padding-top: 100px;
+}
+
+#restback6 img{
+  width: 300px;
+  text-align: center;
+  padding: 75px;
+}
+
+#map {
+  width: 50%;
+  float: left;
+  height: 700px;
+}
+
+#map img{
+  width: 100%;
+  height: 100%;
+}
+
+#garden {
+  width: 50%;
+  float: left;
+  height: 600px;
+}
+
+#garden img{
+  width: 100%;
+  height: 100%;
+}
+
+.privbut {
+  background-color: #ffdd99;
+  color: black;
+  border: 0.5px solid #000000;
+  font-size: 1.5em;
+  font-family: 'Courier New', monospace;
+  z-index: 2;
+  transition-duration: 0.4s;
+  padding: 10px;
+}
+
+.privbut:hover {
+  background-color: white;
+  border: 2px solid white;
+}
+
+
+#gifts {
+  width: 50%;
+  float: right;
+  height: 600px;
+}
+
+#gifts img{
+  width: 100%;
+  height: 100%;
+}
+
+.giftbut {
+  background-color: #ffff66;
+  color: black;
+  border: 0.5px solid #000000;
+  font-size: 1.5em;
+  font-family: 'Courier New', monospace;
+  z-index: 2;
+  transition-duration: 0.4s;
+  padding: 10px;
+}
+
+.giftbut:hover {
+  background-color: white;
+  border: 2px solid white;
+}
